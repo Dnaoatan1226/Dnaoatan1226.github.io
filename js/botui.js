@@ -13,7 +13,7 @@
 			{text:"然后呢？ 😃",value:"sure"},
 			{text:"少废话！ 🙄",value:"skip"}]})
 		.then(function(a){"sure"==a.value&&sure();"skip"==a.value&&end()})})})});var sure=function(){botui.message.add({delay:800,content:"竟然真对我感兴趣！ 🌹🌹🌹"})
-		.then(function(){secondpart()})},end=function(){botui.message.add({delay:800,content:"![...](https://cdn.jsdelivr.net/gh/XXXZhy/Blog_Image/images/黄狗白眼.webp)"})},secondpart=function(){botui.message.add({delay:1500,content:"现就读山东交通学院"})
+		.then(function(){secondpart()})},end=function(){botui.message.add({delay:800,content:"![...](https://github.com/Dnaoatan1226/Dnaoatan1226.github.io/blob/main/img/IMG_2120(20220914-125700).png)"})},secondpart=function(){botui.message.add({delay:1500,content:"现就读山东交通学院"})
 		.then(function(){botui.message.add({delay:1500,content:"是学计算机科学与技术专业的小萌新😬"})
 		.then(function(){botui.message.add({delay:1200,content:"喜欢瞎捣鼓，会因为学到一点儿小技巧高兴"})
 		.then(function(){botui.message.add({delay:1500,content:"主修 Java 和 Python,略知 linux,偶尔也搞 HTML/CSS/JavaScript"})
