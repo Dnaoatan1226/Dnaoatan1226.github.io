@@ -20,7 +20,7 @@
 		.then(function(a){thirdpart()})})})})},thirdpart=function(){botui.message.add({delay:1e3,content:"闲暇之余主要看电影🎥、听音乐🎵、打排球🏐"})
 		.then(function(){botui.message.add({delay:1100,content:"当然也会大家都会玩的游戏🎮~"})
 		.then(function(){botui.action.button({delay:1500,action:[{text:"有联系方式吗？🙋",value:"why-domain"}]})
-		.then(function(a){fourthpart()})})},fourthpart=function(){botui.message.add({delay:1e3,content:"在主页标题下的小按钮里哦~"})
+		.then(function(a){fourthpart()})})},fourthpart=function(){botui.message.add({delay:1e3,content:"在第一篇文章里哦~"})
 		
 })}}
 	//rebuild by neat 
