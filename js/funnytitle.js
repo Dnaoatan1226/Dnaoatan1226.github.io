@@ -4,7 +4,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "/funny.ico");
-        document.title = '记得回来哦 ~';
+        document.title = '多回来看看哦 ~';
         clearTimeout(titleTime);
     }
     else {
